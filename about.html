@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive-Website-Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <!-- header part html start -->
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- header part html code end -->
+
+    <!-- about us content start -->
+    <section class="about_us">
+        <div class="row">
+            <div class="about_column">
+                <h1>We Provide Our Best Service</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident id, voluptatum itaque molestias consequatur minima cupiditate? Facilis, et quaerat officia fuga, sed eveniet dolore minus nobis ipsum veritatis adipisci laudantium repudiandae itaque ad illo voluptas eaque recusandae consectetur, atque rerum nam suscipit hic. Animi saepe assumenda dolore fuga quae iste illum consectetur vel aut nobis laboriosam temporibus id, facere itaque quidem, </p>
+                <a href="" class="hero_btn red_btn" >Explore Now</a>
+            </div>
+            <div class="about_column">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- about us content end -->
+   
+
+    <!-- footer html code start -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aspernatur  ducimus molestiae!  Laudantium vel harum accusamus eos unde mollitia quasi?</p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </section>
+    <!-- footer html code end -->
+
+
+
+
+
+
+
+
+
+    <script>
+        const navLinks = document.getElementById('navLinks');
+
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
