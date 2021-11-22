@@ -319,7 +319,7 @@ h3{
 /* about us css code start */
 
 .sub_header {
-    height: 80vh ;
+    height: 60vh ;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,.7),rgba(4,9,30,.7)),url(images/background.jpg);
     background-position: center;
@@ -328,7 +328,7 @@ h3{
     color : #fff;
 }
 .sub_header h1 {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .about_us{
     width: 80%;
@@ -359,3 +359,64 @@ h3{
     background-color : rgb(252, 61, 61);
     color: white;
 }
+
+/* blog content css code start */
+.blog_content {
+    width : 80%;
+    margin: auto;
+    padding : 60px 0 ;
+}
+.blog_left{
+    flex-basis: 65%;
+}
+.blog_left img{
+    width: 100%;
+}
+.blog_left h2 {
+    font-weight: 600;
+    margin : 30px 0
+}
+.blog_left {
+    text-align: justify;
+}
+
+.blog_right {
+    flex-basis:32%;
+}
+.blog_right  h3 {
+    background-color: rgb(83, 199, 245);
+    padding: 10px 0;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.blog_right div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 8px;
+    box-sizing: border-box;
+}
+
+.comment_box{
+    border: 1px solid #ccc;
+    margin: 60px 0;
+    padding : 10px 20px;
+}
+.comment_box h3 {
+    text-align: left;
+}
+
+.comment_form input , .comment_form textarea {
+    width: 100%;
+    padding:10px ;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f8d7d7;
+}
+.comment_form button {
+    margin: 10px 0;
+}
+/* blog content css code end */
