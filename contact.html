@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive-Website-Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <!-- header part html start -->
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <!-- header part html code end -->
+
+    <!-- contact us code start -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6149.316364487426!2d90.49208321358878!3d23.589790046987396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b1ca69680c19%3A0x22a99308fe2232b6!2sBarirtak%20Jame%20Masjid!5e0!3m2!1sen!2sbd!4v1637620327654!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <!-- contact us code end -->
+
+    <!-- contact form code start -->
+    <section class="contact_us">
+        <div class="row">
+            <div class="contact_column">
+                <div>
+                    <i class="fas fa-house-user"></i>           
+                    <span>
+                        <h5>Gognagar Narayangonj</h5>
+                        <p>3 No Word , South Mosinabondh</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone-volume"></i>
+                    <span>
+                        <h5>++8801912527985</h5>
+                        <p>Open 24/7</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope-square"></i>
+                    <span>
+                        <h5>sayedhossainshifat706@gmail.com</h5>
+                        <p>Replay Within 12 Hours</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact_column">
+                <h3>Get Touch In Email</h3>
+                <form action="" class="comment_form">
+                    <input type="text"placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" name="" id="">
+                    <input type="password" placeholder="Enter Your Password" name="" id="">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact form code end -->
+   
+   
+
+    <!-- footer html code start -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aspernatur  ducimus molestiae!  Laudantium vel harum accusamus eos unde mollitia quasi?</p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </section>
+    <!-- footer html code end -->
+
+
+
+
+
+
+
+
+
+    <script>
+        const navLinks = document.getElementById('navLinks');
+
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
